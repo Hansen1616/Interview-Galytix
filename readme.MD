@@ -9,6 +9,7 @@
   * [constants](constants.py)
 * Results are printed in [results](results)
   * You can find here also log files
+  * It is created upon the first initialization of the helper class
 
 
 ## NOTES and things to improve:
