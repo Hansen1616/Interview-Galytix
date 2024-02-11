@@ -29,6 +29,7 @@ class InterviewHelper:
 
         self.current_time = time.strftime('%Y-%m-%d %H-%M-%S', time.localtime())
         self.log_file = self.results_folder + f"Log_File_{self.current_time}.txt"
+        Path(self.results_folder).mkdir(parents=True, exist_ok=True)
         file = open(self.log_file, "w")
         file.close()
 
